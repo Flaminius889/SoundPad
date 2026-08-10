@@ -35,7 +35,7 @@
 ## Встановлення
 
 1.  Завантажте інсталятор.
-2.  Запустіть `Setup.exe`.
+2.  Запустіть `SoundPad Installer.exe`.
 3.  Запустіть **SoundPad**.
 
 ## Збірка
@@ -47,7 +47,7 @@
 - MSVC 2022
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Flaminius889/Simple-SoundPad
 cd SoundPad
 mkdir build
 cd build
