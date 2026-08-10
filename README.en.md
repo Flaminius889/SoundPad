@@ -35,7 +35,7 @@ Desktop application for managing and playing sound effects.
 ## Installation
 
 1.  Download the installer.
-2.  Run `SoundPad.exe`.
+2.  Run `SoundPad Installer.exe`.
 3.  Launch **SoundPad**.
 
 ## Building
@@ -47,7 +47,7 @@ Requirements:
 - MSVC 2022
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Flaminius889/Simple-SoundPad
 cd SoundPad
 mkdir build
 cd build
