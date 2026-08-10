@@ -35,7 +35,7 @@ Desktop application for managing and playing sound effects.
 ## Installation
 
 1.  Download the installer.
-2.  Run `Setup.exe`.
+2.  Run `SoundPad.exe`.
 3.  Launch **SoundPad**.
 
 ## Building
