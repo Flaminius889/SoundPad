@@ -1,0 +1,21 @@
+/*Duration Slider*/
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background: lightgray;
+    border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal {
+    background: #2196F3;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background: #FFFFFF;
+    border: 1px solid #B0BEC5;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}

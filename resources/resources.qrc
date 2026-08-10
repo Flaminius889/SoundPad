@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="styles.qss">styles/styles.qss</file>
+        <file alias="slider.qss">styles/slider.qss</file>
+        <file alias="slider_disabled.qss">styles/slider_disabled.qss</file>
+
+        <file alias="icons/app.ico">icons/app.ico</file>
+
+        <file>icons/btn_multimedia/headset.ico</file>
+        <file>icons/btn_multimedia/mic.ico</file>
+        <file>icons/btn_multimedia/play.ico</file>
+        <file>icons/btn_multimedia/pause.ico</file>
+        <file>icons/btn_multimedia/stop.ico</file>
+        <file>icons/btn_multimedia/play_previous.ico</file>
+        <file>icons/btn_multimedia/play_next.ico</file>
+        <file>icons/btn_multimedia/volume_mute.ico</file>
+        <file>icons/btn_multimedia/25_volume.ico</file>
+        <file>icons/btn_multimedia/max_volume.ico</file>
+    </qresource>
+</RCC>
