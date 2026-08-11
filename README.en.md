@@ -67,6 +67,7 @@ ui/
 
 - Icons for categories
 - Add hotkey for multimedia buttons in settings
+- Add output on mic
 
 ## License
 
