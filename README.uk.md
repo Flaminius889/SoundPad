@@ -51,11 +51,9 @@
 - MSVC 2022
 
 ```bash
-<<<<<<< HEAD
 git clone <repository-url>
 =======
 git clone https://github.com/Flaminius889/Simple-SoundPad
->>>>>>> origin/main
 cd SoundPad
 mkdir build
 cd build
@@ -72,13 +70,8 @@ src/
 ui/
 
 ## Плани на майбутнє
-
-- Іконки для категорій
 - Додати гарячу клавішу для мультимедійних кнопок у налаштуваннях
-<<<<<<< HEAD
-=======
 - Додати вихід на мікрофон
->>>>>>> origin/main
 
 ## Ліцензія
 
