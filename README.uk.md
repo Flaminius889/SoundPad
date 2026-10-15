@@ -35,7 +35,11 @@
 ## Встановлення
 
 1.  Завантажте інсталятор.
+<<<<<<< HEAD
+2.  Запустіть `Setup.exe`.
+=======
 2.  Запустіть `SoundPad Installer.exe`.
+>>>>>>> origin/main
 3.  Запустіть **SoundPad**.
 
 ## Збірка
@@ -47,7 +51,11 @@
 - MSVC 2022
 
 ```bash
+<<<<<<< HEAD
+git clone <repository-url>
+=======
 git clone https://github.com/Flaminius889/Simple-SoundPad
+>>>>>>> origin/main
 cd SoundPad
 mkdir build
 cd build
@@ -67,7 +75,10 @@ ui/
 
 - Іконки для категорій
 - Додати гарячу клавішу для мультимедійних кнопок у налаштуваннях
+<<<<<<< HEAD
+=======
 - Додати вихід на мікрофон
+>>>>>>> origin/main
 
 ## Ліцензія
 

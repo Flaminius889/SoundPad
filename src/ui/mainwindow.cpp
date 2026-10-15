@@ -1,3 +1,163 @@
+<<<<<<< HEAD
+#include "ui/mainwindow.h"
+
+MainWindow::MainWindow(QWidget *parent)
+    : QMainWindow(parent)
+    , ui(new Ui::MainWindow)
+    , settings(QStandardPaths::writableLocation(QStandardPaths::AppConfigLocation) + "/settings.ini",
+               QSettings::IniFormat)
+{
+    ui->setupUi(this);
+
+    loadStyles();
+    createModels();
+
+    setupSoundManager();
+    setDefaultSettings();
+
+    setupTableView();
+    setupTreeView();
+
+    loadSettings();
+
+    setupContextMenus();
+    setupConnections();
+
+    setupDragDrop();
+}
+
+MainWindow::~MainWindow()
+{
+    QString currentCategory = Repository::instance().getCurrCategoryData();
+    int count = Repository::instance().soundsForCategory(currentCategory).size();
+
+    settings.setValue("currentCategory", Repository::instance().getCurrCategoryData());
+    if (const SoundCategory *category =
+            Repository::instance().categoryByName(currentCategory))
+    {
+        settings.setValue("CurrentCategoryId",
+                          category->id.toString(QUuid::WithoutBraces));
+    }
+    settings.setValue("categoriesOrder", Repository::instance().getCategoryOrder());
+
+    settings.setValue("MediaPosition", soundManager->position());
+    settings.setValue("SliderPosition", ui->duration_time_slider->value());
+    settings.setValue("Volume", ui->volumeControl->value());
+    settings.setValue("MuteBTNIconPath", MuteBTNiconPath);
+    settings.setValue("MusicCount", count);
+
+    settings.setValue("DeviceOutput", soundManager->outputDevice().id());
+    settings.setValue("DeviceInput", soundManager->inputDevice().id());
+    settings.setValue("IsRepeating", soundManager->isRepeating());
+
+    settings.setValue("CurrentTrack", currentRow);
+
+    settings.setValue(
+        "SoundsTableHeader",
+        ui->soundsTable->horizontalHeader()->saveState()
+        );
+
+    Repository::instance().SaveData();
+    delete ui;
+}
+
+void MainWindow::on_actionSettings_triggered()
+{
+    auto *dialog = new settingsDialog(this);
+    dialog->setDevices(soundManager->outputDevice(), soundManager->inputDevice());
+    dialog->setAttribute(Qt::WA_DeleteOnClose);
+
+    connect(dialog, &QDialog::accepted, this,
+            [this, dialog]()
+            {
+                selectedOutputDevice = dialog->getOutputDevice();
+                selectedInputDevice = dialog->getInputDevice();
+
+                if (!selectedOutputDevice.isNull())
+                {
+                    soundManager->setOutputDevice(selectedOutputDevice);
+                }
+                else
+                {
+                    soundManager->setOutputDevice(QMediaDevices::defaultAudioOutput());
+                }
+
+                if (!selectedInputDevice.isNull())
+                    soundManager->setInputDevice(selectedInputDevice);
+                else
+                    soundManager->setInputDevice(QMediaDevices::defaultAudioInput());
+
+                if(!selectedOutputDevice.isNull() || !selectedInputDevice.isNull())
+                    qDebug() << "Audio device changed";
+            });
+
+    connect(dialog, &QDialog::rejected, this,
+            []()
+            {
+                qDebug() << "Audio devices not changed";
+            });
+
+    dialog->show();
+}
+
+void MainWindow::onSoundDoubleClicked(const QModelIndex &index)
+{
+    if (!index.isValid())
+        return;
+
+    if (index.column() == 3)
+        return;
+
+    const SoundT* sound = tableModel->soundAt(index.row());
+
+    if (!sound)
+        return;
+
+    currentRow = index.row();
+    launchMusic(sound->path);
+}
+
+void MainWindow::onSelectionChanged()
+{
+    int count = ui->soundsTable
+                    ->selectionModel()
+                    ->selectedRows()
+                    .count();
+
+    ui->countOfSelected->setText(QString("Choosed: %1").arg(count));
+}
+
+void MainWindow::onCategorySelectionChanged()
+{
+    auto *header = ui->soundsTable->horizontalHeader();
+    header->setSortIndicator(-1, Qt::AscendingOrder);
+
+    QModelIndex index = ui->categoriesTree->currentIndex();
+    if (!index.isValid())
+        return;
+
+    QString category = categoryModel->data(index, Qt::UserRole).toString();
+
+    if (category.isEmpty())
+        return;
+
+    Repository::instance().getCurrCategoryData() = category;
+
+    ui->countOfSelected->setText("Choosed: 0");
+    refreshAllModels(false);
+}
+
+Qt::SortOrder MainWindow::toggleSortOrder(int column)
+{
+    Qt::SortOrder &order = sortOrders[column];
+
+    order = order == Qt::AscendingOrder
+                ? Qt::DescendingOrder
+                : Qt::AscendingOrder;
+
+    return order;
+}
+=======
 #include "ui/mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -142,3 +302,4 @@ Qt::SortOrder MainWindow::toggleSortOrder(int column)
 
     return order;
 }
+>>>>>>> origin/main

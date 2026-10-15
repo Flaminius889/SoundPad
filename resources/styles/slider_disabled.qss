@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Duration Slider disabled */
 
 QSlider::groove:horizontal:disabled {
@@ -18,4 +19,26 @@ QSlider::handle:horizontal:disabled {
     height: 14px;
     margin: -4px 0;
     border-radius: 7px;
+=======
+/* Duration Slider disabled */
+
+QSlider::groove:horizontal:disabled {
+    height: 6px;
+    background: #E0E0E0;
+    border-radius: 3px;
+}
+
+QSlider::sub-page:horizontal:disabled {
+    background: #BDBDBD;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal:disabled {
+    background: #F5F5F5;
+    border: 1px solid #CFCFCF;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+>>>>>>> origin/main
 }

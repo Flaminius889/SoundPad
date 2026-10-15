@@ -1,3 +1,22 @@
+<<<<<<< HEAD
+#pragma once
+
+#include <QVector>
+#include "core/Sound.h"
+
+class FileManager
+{
+public:
+    static void saveList(const QString& filename,
+                         const QVector<SoundT>& sounds);
+
+    static void readFile(const QString &filename,
+                         QVector<SoundT> &sounds);
+
+    static void parseLine(const QString& line,
+                          SoundT& sound);
+};
+=======
 #pragma once
 
 #include <QVector>
@@ -15,3 +34,4 @@ public:
     static void parseLine(const QString& line,
                           SoundT& sound);
 };
+>>>>>>> origin/main
