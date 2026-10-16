@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "core/contextManager.h"
 #include "ui_mainwindow.h"
 #include <QMenu>
@@ -173,7 +172,6 @@ void ContextMenuManager::showLowerBarMenu(const QPoint &pos)
         emit changeCategoryRequested();
     }
 }
-=======
 #include "core/contextManager.h"
 #include "ui_mainwindow.h"
 #include <QMenu>
@@ -341,4 +339,3 @@ void ContextMenuManager::showLowerBarMenu(const QPoint &pos)
         emit changeCategoryRequested();
     }
 }
->>>>>>> origin/main

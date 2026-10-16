@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 cmake_minimum_required(VERSION 3.16)
 
 project(Soundpad VERSION 0.1 LANGUAGES CXX)
@@ -219,7 +218,6 @@ install(TARGETS Soundpad
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(Soundpad)
 endif()
-=======
 cmake_minimum_required(VERSION 3.16)
 
 project(Soundpad VERSION 0.1 LANGUAGES CXX)
@@ -430,4 +428,3 @@ install(TARGETS Soundpad
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(Soundpad)
 endif()
->>>>>>> origin/main

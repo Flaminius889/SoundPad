@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <RCC>
     <qresource prefix="/">
         <file alias="styles.qss">styles/styles.qss</file>
@@ -20,7 +19,6 @@
         <file>icons/btn_multimedia/max_volume.ico</file>
     </qresource>
 </RCC>
-=======
 <RCC>
     <qresource prefix="/">
         <file alias="styles.qss">styles/styles.qss</file>
@@ -41,4 +39,3 @@
         <file>icons/btn_multimedia/max_volume.ico</file>
     </qresource>
 </RCC>
->>>>>>> origin/main

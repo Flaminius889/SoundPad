@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "core/repository.h"
 
 #include "services/FileManager.h"
@@ -349,7 +348,6 @@ bool Repository::ReadData()
 
     return !categories.isEmpty();
 }
-=======
 #include "core/repository.h"
 #include "services/FileManager.h"
 #include <QStandardPaths>
@@ -584,4 +582,3 @@ bool Repository::ReadData()
 
     return !categories.isEmpty();
 }
->>>>>>> origin/main

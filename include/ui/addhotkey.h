@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef ADDHOTKEY_H
 #define ADDHOTKEY_H
 
@@ -33,7 +32,6 @@ private:
     QKeySequence keySeque;
 };
 
-=======
 #ifndef ADDHOTKEY_H
 #define ADDHOTKEY_H
 
@@ -68,5 +66,4 @@ private:
     QKeySequence keySeque;
 };
 
->>>>>>> origin/main
 #endif // ADDHOTKEY_H

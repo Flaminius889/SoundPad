@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // #endif // CATEGORIESVIEW_H
 #ifndef CATEGORIESVIEW_H
 #define CATEGORIESVIEW_H
@@ -33,7 +32,6 @@ private:
     QPersistentModelIndex m_dropIndex;
 };
 
-=======
 // #endif // CATEGORIESVIEW_H
 #ifndef CATEGORIESVIEW_H
 #define CATEGORIESVIEW_H
@@ -68,5 +66,4 @@ private:
     QPersistentModelIndex m_dropIndex;
 };
 
->>>>>>> origin/main
 #endif // CATEGORIESVIEW_H

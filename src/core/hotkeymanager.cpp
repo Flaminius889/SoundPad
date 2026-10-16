@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "core/hotkeymanager.h"
 
 #include <QCoreApplication>
@@ -148,7 +147,6 @@ bool HotkeyManager::nativeEventFilter(const QByteArray &eventType, void *message
 #endif
 
     return false;
-=======
 #include "core/hotkeymanager.h"
 
 #include <QCoreApplication>
@@ -298,5 +296,4 @@ bool HotkeyManager::nativeEventFilter(const QByteArray &eventType, void *message
 #endif
 
     return false;
->>>>>>> origin/main
 }

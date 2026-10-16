@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 void MainWindow::cleanupSoundsBeforeRemoval(const QVector<SoundT>& sounds)
@@ -62,7 +61,6 @@ void MainWindow::cleanupSoundsBeforeRemoval(const QVector<SoundT>& sounds)
         setWindowTitle(SOUNDPAD);
     }
 }
-=======
 #include "ui/mainwindow.h"
 
 void MainWindow::cleanupSoundsBeforeRemoval(const QVector<SoundT>& sounds)
@@ -127,4 +125,3 @@ void MainWindow::cleanupSoundsBeforeRemoval(const QVector<SoundT>& sounds)
         setWindowTitle(SOUNDPAD);
     }
 }
->>>>>>> origin/main

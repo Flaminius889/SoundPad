@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include <QStyledItemDelegate>
 
@@ -27,7 +26,6 @@ void MainWindow::setupTableView()
     ui->soundsTable->setSortingEnabled(true);
     header->setSortIndicatorShown(true);
 }
-=======
 #include "ui/mainwindow.h"
 
 void MainWindow::setupTableView()
@@ -55,4 +53,3 @@ void MainWindow::setupTableView()
     ui->soundsTable->setSortingEnabled(true);
     header->setSortIndicatorShown(true);
 }
->>>>>>> origin/main

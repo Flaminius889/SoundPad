@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <QVector>
@@ -16,7 +15,6 @@ public:
     static void parseLine(const QString& line,
                           SoundT& sound);
 };
-=======
 #pragma once
 
 #include <QVector>
@@ -34,4 +32,3 @@ public:
     static void parseLine(const QString& line,
                           SoundT& sound);
 };
->>>>>>> origin/main

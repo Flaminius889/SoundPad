@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/addhotkey.h"
 #include "ui_addhotkey.h"
 
@@ -75,7 +74,6 @@ bool addHotkey::eventFilter(QObject *obj, QEvent *event)
     }
 
     return QDialog::eventFilter(obj, event);
-=======
 #include "ui/addhotkey.h"
 #include "ui_addhotkey.h"
 
@@ -152,5 +150,4 @@ bool addHotkey::eventFilter(QObject *obj, QEvent *event)
     }
 
     return QDialog::eventFilter(obj, event);
->>>>>>> origin/main
 }

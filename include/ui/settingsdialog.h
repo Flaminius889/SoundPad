@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef SETTINGSDIALOG_H
 #define SETTINGSDIALOG_H
 
@@ -42,7 +41,6 @@ private:
 };
 
 #endif // SETTINGSDIALOG_H
-=======
 #ifndef SETTINGSDIALOG_H
 #define SETTINGSDIALOG_H
 
@@ -90,4 +88,3 @@ private:
 };
 
 #endif // SETTINGSDIALOG_H
->>>>>>> origin/main

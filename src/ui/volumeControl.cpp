@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include "ui_mainwindow.h"
 
@@ -78,7 +77,6 @@ void MainWindow::on_volumeControl_valueChanged(int value)
 
     ui->muteBtn->setIcon(QIcon(MuteBTNiconPath));
 }
-=======
 #include "ui/mainwindow.h"
 #include "ui_mainwindow.h"
 
@@ -160,4 +158,3 @@ void MainWindow::on_volumeControl_valueChanged(int value)
 
     ui->muteBtn->setIcon(QIcon(MuteBTNiconPath));
 }
->>>>>>> origin/main

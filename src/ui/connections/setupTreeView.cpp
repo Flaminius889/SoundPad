@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 void MainWindow::setupTreeView()
@@ -42,7 +41,6 @@ void MainWindow::setupTreeView()
 
     ui->categoriesTree->expandAll();
 }
-=======
 #include "ui/mainwindow.h"
 
 void MainWindow::setupTreeView()
@@ -85,4 +83,3 @@ void MainWindow::setupTreeView()
 
     ui->categoriesTree->expandAll();
 }
->>>>>>> origin/main

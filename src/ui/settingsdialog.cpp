@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/settingsdialog.h"
 #include "ui_settingsdialog.h"
 
@@ -126,7 +125,6 @@ void settingsDialog::onInputDeviceChanged(int index)
         ui->inputComboBox->itemData(index).value<QAudioDevice>();
 }
 
-=======
 #include "ui/settingsdialog.h"
 #include "ui_settingsdialog.h"
 
@@ -240,4 +238,3 @@ void settingsDialog::onInputDeviceChanged(int index)
         ui->inputComboBox->itemData(index).value<QAudioDevice>();
 }
 
->>>>>>> origin/main

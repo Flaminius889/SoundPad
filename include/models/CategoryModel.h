@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <QAbstractItemModel>
@@ -54,7 +53,6 @@ signals:
     void categoryMoved(const QString& category, int fromRow, int toRow);
     void soundsMovedToCategory(const QStringList& soundIds, const QString& targetCategory);
 };
-=======
 #pragma once
 
 #include <QAbstractItemModel>
@@ -105,4 +103,3 @@ signals:
     void categoryMoved(const QString& category, int fromRow, int toRow);
     void soundsMovedToCategory(const QStringList& soundIds, const QString& targetCategory);
 };
->>>>>>> origin/main

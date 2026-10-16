@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "services/FileManager.h"
 #include <QFile>
 #include <QTextStream>
@@ -75,7 +74,6 @@ void  FileManager::parseLine(const QString& line,
     sound.data = parts[5];
     sound.hotkey = parts[6];
 }
-=======
 #include "services/FileManager.h"
 #include <QFile>
 #include <QTextStream>
@@ -152,4 +150,3 @@ void  FileManager::parseLine(const QString& line,
     sound.data = parts[5];
     sound.hotkey = parts[6];
 }
->>>>>>> origin/main

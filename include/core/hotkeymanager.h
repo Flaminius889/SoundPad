@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <QObject>
@@ -37,7 +36,6 @@ private:
     static bool keySequenceToNative(const QKeySequence &key, quint32 &modifiers, quint32 &vk);
 
     QHash<int, QKeySequence> hotkeys;
-=======
 #pragma once
 
 #include <QObject>
@@ -76,5 +74,4 @@ private:
     static bool keySequenceToNative(const QKeySequence &key, quint32 &modifiers, quint32 &vk);
 
     QHash<int, QKeySequence> hotkeys;
->>>>>>> origin/main
 };

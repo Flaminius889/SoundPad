@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 #include <QApplication>
@@ -23,7 +22,6 @@ int main(int argc, char *argv[])
 
     return QApplication::exec();
 }
-=======
 #include "ui/mainwindow.h"
 
 #include <QApplication>
@@ -47,4 +45,3 @@ int main(int argc, char *argv[])
 
     return QApplication::exec();
 }
->>>>>>> origin/main

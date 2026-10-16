@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef REPOSITORY_H
 #define REPOSITORY_H
 
@@ -56,7 +55,6 @@ private:
 };
 
 #endif // REPOSITORY_H
-=======
 #ifndef REPOSITORY_H
 #define REPOSITORY_H
 
@@ -106,4 +104,3 @@ private:
 };
 
 #endif // REPOSITORY_H
->>>>>>> origin/main

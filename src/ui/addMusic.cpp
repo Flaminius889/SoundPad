@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QtCore>
@@ -86,7 +85,6 @@ void MainWindow::on_actionAdd_new_sound_triggered()
 
     refreshAllModels();
 }
-=======
 #include "ui/mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QtCore>
@@ -176,4 +174,3 @@ void MainWindow::on_actionAdd_new_sound_triggered()
     refreshAllModels();
     updateCountLabel(category);
 }
->>>>>>> origin/main

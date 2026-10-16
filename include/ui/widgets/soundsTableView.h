@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef SOUNDSTABLEVIEW_H
 #define SOUNDSTABLEVIEW_H
 
@@ -19,7 +18,6 @@ protected:
 };
 
 #endif // SOUNDSTABLEVIEW_H
-=======
 #ifndef SOUNDSTABLEVIEW_H
 #define SOUNDSTABLEVIEW_H
 
@@ -40,4 +38,3 @@ protected:
 };
 
 #endif // SOUNDSTABLEVIEW_H
->>>>>>> origin/main

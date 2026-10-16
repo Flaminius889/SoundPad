@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 QString MainWindow::loadStyle(const QString &path)
@@ -23,7 +22,6 @@ void MainWindow::loadStyles()
 
     m_sliderEnabledStyle = loadStyle(":/slider.qss");
     m_sliderDisabledStyle = loadStyle(":/slider_disabled.qss");
-=======
 #include "ui/mainwindow.h"
 
 QString MainWindow::loadStyle(const QString &path)
@@ -48,5 +46,4 @@ void MainWindow::loadStyles()
 
     m_sliderEnabledStyle = loadStyle(":/slider.qss");
     m_sliderDisabledStyle = loadStyle(":/slider_disabled.qss");
->>>>>>> origin/main
 }

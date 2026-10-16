@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*QHeaderView*/
 
 QHeaderView::section
@@ -161,7 +160,6 @@ QPushButton:pressed {
 QPushButton#repeat_btn:checked {
     background: #b8d8ff;
 }
-=======
 /*QHeaderView*/
 
 QHeaderView::section
@@ -340,4 +338,3 @@ QPushButton:pressed {
     padding-top: 2px;
     background: #dcdcdc;
 }
->>>>>>> origin/main

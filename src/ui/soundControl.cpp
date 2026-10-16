@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QtGui>
@@ -94,7 +93,6 @@ void MainWindow::playPreviousTrack()
     currentRow = row;
     launchMusic(sounds[row].path);
 }
-=======
 #include "ui/mainwindow.h"
 #include "./ui_mainwindow.h"
 #include <QtGui>
@@ -149,4 +147,3 @@ void MainWindow::playPreviousTrack()
 
     launchMusic(categories[currentCategory][row].path);
 }
->>>>>>> origin/main

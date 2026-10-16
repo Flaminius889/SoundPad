@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 //Drag/drop settings
@@ -227,7 +226,6 @@ void MainWindow::removeSounds(const QStringList& soundIds)
 
     refreshAllModels();
 }
-=======
 #include "ui/mainwindow.h"
 
 //Drag/drop settings
@@ -449,4 +447,3 @@ void MainWindow::removeSounds(const QStringList& soundIds)
 
     refreshAllModels();
 }
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include <QShortcut>
 
@@ -291,7 +290,6 @@ void MainWindow::setupConnections()
             m_hotkeyManager->registerHotkey(sound.id, sound.hotkey);
     }
 }
-=======
 #include "ui/mainwindow.h"
 #include <QShortcut>
 
@@ -602,4 +600,3 @@ void MainWindow::setupConnections()
             m_hotkeyManager->registerHotkey(sound.id, sound.hotkey);
     }
 }
->>>>>>> origin/main

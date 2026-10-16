@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 void MainWindow::loadSettings()
@@ -75,7 +74,6 @@ void MainWindow::loadSettings()
 
     soundManager->loadFile(track.path, position);
 }
-=======
 #include "ui/mainwindow.h"
 
 void MainWindow::loadSettings()
@@ -145,4 +143,3 @@ void MainWindow::loadSettings()
     player->setSource(
         QUrl::fromLocalFile(track.path));
 }
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 void MainWindow::createModels()
@@ -26,7 +25,6 @@ void MainWindow::createModels()
     updateCountLabel(
         Repository::instance().getCurrCategoryData());
 }
-=======
 #include "ui/mainwindow.h"
 
 void MainWindow::createModels()
@@ -53,4 +51,3 @@ void MainWindow::createModels()
     updateCountLabel(
         Repository::instance().getCurrCategoryData());
 }
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/widgets/soundstableview.h"
 
 SoundsTableView::SoundsTableView(QWidget *parent)
@@ -37,7 +36,6 @@ void SoundsTableView::mousePressEvent(QMouseEvent *event)
 void SoundsTableView::mouseDoubleClickEvent(QMouseEvent *event)
 {
     QTableView::mouseDoubleClickEvent(event);
-=======
 #include "ui/widgets/soundstableview.h"
 
 SoundsTableView::SoundsTableView(QWidget *parent)
@@ -76,5 +74,4 @@ void SoundsTableView::mousePressEvent(QMouseEvent *event)
 void SoundsTableView::mouseDoubleClickEvent(QMouseEvent *event)
 {
     QTableView::mouseDoubleClickEvent(event);
->>>>>>> origin/main
 }

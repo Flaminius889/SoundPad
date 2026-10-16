@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <QAbstractTableModel>
@@ -65,7 +64,6 @@ public:
         IdRole = Qt::UserRole + 1
     };
 };
-=======
 #pragma once
 
 #include <QAbstractTableModel>
@@ -132,4 +130,3 @@ public:
         IdRole = Qt::UserRole + 1
     };
 };
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -124,7 +123,6 @@ public:
     CategoryModel *categoryModel;
 };
 #endif // MAINWINDOW_H
-=======
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -257,4 +255,3 @@ public:
     CategoryModel *categoryModel;
 };
 #endif // MAINWINDOW_H
->>>>>>> origin/main

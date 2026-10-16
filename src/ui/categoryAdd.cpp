@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/categoryAdd.h"
 #include "ui/categoryIcon.h"
 #include "ui_categoryAdd.h"
@@ -102,7 +101,6 @@ bool CategoryAddDialog::eventFilter(QObject *obj, QEvent *event)
 
     return QDialog::eventFilter(obj, event);
 }
-=======
 #include "ui/categoryAdd.h"
 #include "ui_categoryAdd.h"
 #include <QKeyEvent>
@@ -160,4 +158,3 @@ bool CategoryAddDialog::eventFilter(QObject *obj, QEvent *event)
 
     return QDialog::eventFilter(obj, event);
 }
->>>>>>> origin/main

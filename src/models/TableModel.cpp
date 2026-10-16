@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "models/TableModel.h"
 #include <QColor>
 #include <QFileInfo>
@@ -476,7 +475,6 @@ void TableModel::sort(int column, Qt::SortOrder order)
 
     endResetModel();
 }
-=======
 #include "models/TableModel.h"
 #include <QMimeData>
 
@@ -952,4 +950,3 @@ void TableModel::sort(int column, Qt::SortOrder order)
 
     endResetModel();
 }
->>>>>>> origin/main

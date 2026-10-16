@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "models/CategoryModel.h"
 #include "ui/categoryIcon.h"
 
@@ -260,7 +259,6 @@ QString CategoryModel::categoryAt(int row) const
         ? categories[repositoryRow].name
         : QString();
 }
-=======
 #include "models/CategoryModel.h"
 #include <QMimeData>
 
@@ -572,4 +570,3 @@ QString CategoryModel::categoryAt(int row) const
 
     return order[row];
 }
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/widgets/categoriesView.h"
 
 #include <QDragEnterEvent>
@@ -72,7 +71,6 @@ void categoriesView::mousePressEvent(QMouseEvent *event)
     }
 
     QTreeView::mousePressEvent(event);
-=======
 #include "ui/widgets/categoriesView.h"
 
 #include <QDragEnterEvent>
@@ -161,5 +159,4 @@ void categoriesView::mousePressEvent(QMouseEvent *event)
     }
 
     QTreeView::mousePressEvent(event);
->>>>>>> origin/main
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include "ui_mainwindow.h"
 
@@ -61,7 +60,6 @@ void MainWindow::setDefaultSettings()
     ui->muteBtn->setIconSize(QSize(20, 20));
     ui->muteBtn->setProperty("muted", false);
 }
-=======
 #include "ui/mainwindow.h"
 #include "ui_mainwindow.h"
 
@@ -123,4 +121,3 @@ void MainWindow::setDefaultSettings()
     ui->muteBtn->setIconSize(QSize(20, 20));
     ui->muteBtn->setProperty("muted", false);
 }
->>>>>>> origin/main

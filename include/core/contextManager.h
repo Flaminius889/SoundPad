@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef CONTEXTMENUMANAGER_H
 #define CONTEXTMENUMANAGER_H
 
@@ -36,7 +35,6 @@ private:
     Ui::MainWindow *m_ui;
 };
 
-=======
 #ifndef CONTEXTMENUMANAGER_H
 #define CONTEXTMENUMANAGER_H
 
@@ -74,5 +72,4 @@ private:
     Ui::MainWindow *m_ui;
 };
 
->>>>>>> origin/main
 #endif // CONTEXTMENUMANAGER_H

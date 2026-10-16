@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 
 #include <QDialog>
@@ -36,7 +35,6 @@ private:
     QString categoryName;
     QByteArray categoryIcon;
 };
-=======
 #pragma once
 
 #include <QDialog>
@@ -68,4 +66,3 @@ private:
     Ui::categoryEdit *ui;
     QString categoryName;
 };
->>>>>>> origin/main

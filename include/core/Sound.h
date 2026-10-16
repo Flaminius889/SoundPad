@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #pragma once
 #include <QtCore>
 
@@ -19,7 +18,6 @@ struct SoundT
     bool operator==(const SoundT& other) const {
         return id == other.id;
     }
-=======
 #pragma once
 #include <QtCore>
 
@@ -40,5 +38,4 @@ struct SoundT
     bool operator==(const SoundT& other) const {
         return id == other.id;
     }
->>>>>>> origin/main
 };

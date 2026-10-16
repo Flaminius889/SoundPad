@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 #include "ui/categoryAdd.h"
 #include "ui/categoryEdit.h"
@@ -258,7 +257,6 @@ void MainWindow::handleChangeCategory()
         }
     }
 }
-=======
 #include "ui/mainwindow.h"
 #include "ui/categoryAdd.h"
 #include "ui/categoryEdit.h"
@@ -518,4 +516,3 @@ void MainWindow::handleChangeCategory()
         }
     }
 }
->>>>>>> origin/main

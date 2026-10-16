@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #ifndef CATEGORYADD_H
 #define CATEGORYADD_H
 
@@ -35,7 +34,6 @@ private:
 };
 
 #endif // CATEGORYADD_H
-=======
 #ifndef CATEGORYADD_H
 #define CATEGORYADD_H
 
@@ -66,4 +64,3 @@ private:
 };
 
 #endif // CATEGORYADD_H
->>>>>>> origin/main

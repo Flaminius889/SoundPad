@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -157,7 +156,6 @@ Qt::SortOrder MainWindow::toggleSortOrder(int column)
 
     return order;
 }
-=======
 #include "ui/mainwindow.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -302,4 +300,3 @@ Qt::SortOrder MainWindow::toggleSortOrder(int column)
 
     return order;
 }
->>>>>>> origin/main

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #include "ui/mainwindow.h"
 
 QString MainWindow::getCurrentTime() {
@@ -33,7 +32,6 @@ qint64 MainWindow::getAudioDuration(const QString& filePath)
 {
     return soundManager->audioDuration(filePath);
 }
-=======
 #include "ui/mainwindow.h"
 
 QString MainWindow::getCurrentTime() {
@@ -82,4 +80,3 @@ qint64 MainWindow::getAudioDuration(const QString& filePath)
 
     return player.duration();
 }
->>>>>>> origin/main
